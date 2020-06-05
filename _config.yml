@@ -68,6 +68,14 @@ collections:
     feature_text: |
       Welcome to the blog
     feature_image: "https://picsum.photos/2560/600?image=866"
+  projects:
+    title: Projects
+    output: true
+    description: "Some projects"
+    feature_text: |
+      Welcome to my projects
+    feature_image: "../assets/snowy.jpg"
+    
 
 # 6. Jekyll collections settings
 defaults:
@@ -81,7 +89,7 @@ defaults:
 encoding: utf-8 # Make sure the encoding is right
 lang: en-GB # Set the site language
 title: "Joseph Shenouda" # Site name or title, also used in jekyll-seo-tag
-logo: "/assets/logos/logo.svg" # Site logo, also used in jekyll-seo-tag
+# logo: "/assets/logos/logo.svg" # Site logo, also used in jekyll-seo-tag
 description: "Alembic is a starting point for Jekyll projects. Rather than starting from scratch, this boilerplate is designed to get the ball rolling immediately" # Site description and default description, also used in jekyll-seo-tag
 url: "joeshenouda.github.io" # Site url, also used in jekyll-seo-tag
 baseurl: ""
@@ -94,15 +102,15 @@ email: "shenoudajoseph7@gmail.com"
 css_inline: true # Will insert all styles into a single <style> block in the <head> element and remove the style <link> reference
 
 # 8. Site favicons & manifest icons
-favicons: # Favicons are also used in the manifest file. Syntax is 'size: path'
-  16: '/assets/logos/logo@16px.png'
-  32: '/assets/logos/logo@32px.png'
-  96: '/assets/logos/logo@96px.png'
-  120: '/assets/logos/logo@120px.png'
-  144: '/assets/logos/logo@144px.png'
-  180: '/assets/logos/logo@180px.png'
-  512: '/assets/logos/logo@512px.png'
-  1024: '/assets/logos/logo@1024px.png'
+# favicons: # Favicons are also used in the manifest file. Syntax is 'size: path'
+#   16: '/assets/logos/logo@16px.png'
+#   32: '/assets/logos/logo@32px.png'
+#   96: '/assets/logos/logo@96px.png'
+#   120: '/assets/logos/logo@120px.png'
+#   144: '/assets/logos/logo@144px.png'
+#   180: '/assets/logos/logo@180px.png'
+#   512: '/assets/logos/logo@512px.png'
+#   1024: '/assets/logos/logo@1024px.png'
 
 # 9. Site navigation
 navigation_header:

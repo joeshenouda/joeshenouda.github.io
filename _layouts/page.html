@@ -14,6 +14,10 @@ layout: default
 
   </article>
 
+  {% if page.about == true %}
+    <img src='../assets/joeSuit.jpg' style="max-width: 100%; height: 70%"/>
+  {% endif %}
+
   {% if page.aside == true %}{% include site-aside.html %}{% endif %}
 
 </main>
