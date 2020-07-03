@@ -2,11 +2,13 @@
 feature_text: |
   ## About Me
 feature_image: "https://picsum.photos/1300/400?image=989"
-excerpt: "Alembic is a starting point for [Jekyll](https://jekyllrb.com/) projects. Rather than starting from scratch, this boilerplate is designed to get the ball rolling immediately. Install it, configure it, tweak it, push it."
+excerpt: "Welcome to my site"
 layout: page
 about: true
 ---
 
-Hello, my name is Joe Shenouda, I am currently an undergraduate at Rutgers University majoring in Electrical and Computer Engineering with an interest in signal processing and machine learning. I hope to use this website to write about some of my experiences and share some projects I found interesting. 
+Hello, my name is Joe Shenouda and I am currently an undergraduate at Rutgers University majoring in Electrical and Computer Engineering with a strong an interest in signal processing and machine learning.
 
-[Resume](/assets/Resume.pdf)
+In the past I've worked at [Lockheed Martin](https://www.lockheedmartin.com/en-us/index.html) and the [INSPIRE Labs](http://www.inspirelab.us/). I'm currently working with the Intelligence and Space Research team at [Los Alamos National Labs](https://www.lanl.gov/)
+
+Check out my projects for a description of some of the work I've done throughout my time here at Rutgers.
