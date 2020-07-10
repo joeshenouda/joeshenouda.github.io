@@ -5,13 +5,12 @@ layout: post
 ---
 In most machine learning tasks our goal is to minimize the empirical risk leaving us with an optimization problem of the following form in an attempt to find the best parameter \\(\beta\\) for our model based on the data.
 
-$$\min_{\beta} \sum_{i=1}^{D}\ell(\beta; x_{i}, y_{i})$$
+\\[\min_{\beta} \sum_{i=1}^{D}\ell(\beta; x_{i}, y_{i})\\]
 
 This unconstrained optimization problem is most commonly solved using the famous gradient descent or some variation of it. Thus in each iteration we wish to evaluate the gradient of our objective function in order to take a "step" in the direction of steepest descent. Computing this gradient at each iteration can become very computationally expensive especially with large datasets used in real world problems. Thankfully, our objective functions are often additively separable meaning we can express the gradient at each iteration as:
 
-$$\nabla  \sum_{i=1}^{D}\ell(\beta_{k}; x_{i}, y_{i}) = \nabla \sum_{i=1}^{D_{1}}\ell(\beta_{k}; x_{i}, y_{i})+... $$
-
-$$+\nabla \sum_{i=1}^{D_{n}}\ell(\beta_{k}; x_{i}, y_{i})$$
+\\[\nabla  \sum_{i=1}^{D}\ell(\beta_{k}; x_{i}, y_{i}) = \nabla \sum_{i=1}^{D_{1}}\ell(\beta_{k}; x_{i}, y_{i})+... \\]
+\\[+\nabla \sum_{i=1}^{D_{n}}\ell(\beta_{k}; x_{i}, y_{i})\\]
 
 Where we have now split our dataset into \\(n\\) partitions. The full gradient can be computed using a distributed architecture by taking the gradient of our objective function evaluated only at the specific data partition assigned to each node.
 
