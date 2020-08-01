@@ -14,8 +14,7 @@ This unconstrained optimization problem is most commonly solved using the famous
 
 Where we have now split our dataset into \\(n\\) partitions. The full gradient can be computed using a distributed architecture by taking the gradient of our objective function evaluated only at the specific data partition assigned to each node.
 
-<img src="/assets/distributedGradDescent.JPG" alt="distributed pic"
-	title="Distributed Gradient Descent" width="70%" height="70%"/>
+<div style="text-align:center"><img src="/assets/distributedGradDescent.JPG" /></div>
 
 Here each partial gradient is denoted \\(g_{j}\\) depending on which data points are being used. While this solution seems to have solved our problem the team is only as strong as its weakest member. Notice that in order to recover the full gradient back to the fusion center we must wait for all the nodes to finish computing their partial gradients thus, the computation is only as fast as the slowest nodes, which we refer to as the "stragglers". 
 
