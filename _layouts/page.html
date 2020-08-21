@@ -15,7 +15,11 @@ layout: default
   </article>
 
   {% if page.about == true %}
-    <img src='../assets/joeSuit.jpg'/>
+    <img src='../assets/joeSuit.jpg' style="display: block;
+    width: 20em;
+    max-width: 25%;
+    border-radius: 50%;
+    margin: 0 auto 1em auto;"/>
   {% endif %}
 
   {% if page.aside == true %}{% include site-aside.html %}{% endif %}
