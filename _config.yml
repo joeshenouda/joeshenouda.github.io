@@ -73,8 +73,8 @@ collections:
     output: true
     description: "Some projects"
     feature_text: |
-      Welcome to my projects
-    feature_image: "../assets/snowy.jpg"
+      ## <span style="background-color:black; color:white; padding: 15px">Projects</span>
+    feature_image: "../assets/networky.jpg"
     
 
 # 6. Jekyll collections settings

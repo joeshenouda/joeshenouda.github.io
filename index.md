@@ -1,14 +1,13 @@
 ---
 feature_text: |
-  ## About Me
+  ## Joseph Shenouda
 feature_image: "https://picsum.photos/1300/400?image=989"
 excerpt: "Welcome to my site"
 layout: page
 about: true
 ---
 
-Hello, my name is Joe Shenouda and I am currently an undergraduate at Rutgers University majoring in Electrical and Computer Engineering with a strong interest in signal processing and machine learning.
+I am an undergraduate senior at Rutgers University majoring in Electrical and Computer Engineering with a strong interest in signal processing and machine learning.
 
-In the past I've worked at [Lockheed Martin](https://www.lockheedmartin.com/en-us/index.html) and the [INSPIRE Labs](http://www.inspirelab.us/). I'm currently working with the Intelligence and Space Research team at [Los Alamos National Labs](https://www.lanl.gov/)
+As a [JJ Slade Scholar](https://soe.rutgers.edu/slade) I am conducting research on graph signal processing at the [INSPIRE Labs](http://www.inspirelab.us/) under Dr. Waheed Bajwa. In the past I've worked at the Los Alamos National Labs utilizing digital signal processing for processing data in outer space. You can check out my [Resume](./assets/Resume.pdf) for more on my past work and experiences. 
 
-Check out my projects for a description of some of the work I've done throughout my time here at Rutgers.
