@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Joe Shenouda""
+title                    : "Joe Shenouda"
 title_separator          : "-"
 name                     : &name "Joe Shenouda"
 description              : &description "Welcome to my website"
