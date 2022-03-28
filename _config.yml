@@ -80,10 +80,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Sidebar Name"
-  avatar           : "joeSuit.png"
-  bio              : "Your biography for the left-hand sidebar"
-  location         : "Location"
+  name             : "Joe Shenouda"
+  avatar           : "joeSuit.jpeg"
+  bio              : "Welcome to my site!"
+  location         : "Madison, WI"
   employer         :
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "http://yourfullgooglescholarurl.com"
