@@ -17,6 +17,8 @@ main:
     
   - title: "CV"
     url: /files/Shenouda_Joseph_CV.pdf
+  - title: "Paper Summaries"
+    url: https://www.notion.so/Nonparametric-Regression-Using-Deep-Neural-Networks-with-ReLU-Activation-Function-d68844f226244b5d9ef50522bf987498
     
 #  - title: "Guide"
 #    url: /markdown/
