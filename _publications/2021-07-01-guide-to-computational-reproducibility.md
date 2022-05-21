@@ -3,13 +3,14 @@ title: "Guide to Computational Reproducibility in Signal Processing and Machine
 Learning Research"
 collection: publications
 permalink: /publication/2021-07-01-guide-to-computational-reproducibility
-excerpt: 'In this work we present a set of standards and best practices that
+excerpt: 'Reproducibility is a growing concern amongst the machine learning and
+signal processing community. In this work we present a set of standards and best practices that
 researchers can employ to ensure their computational experiments are
-reproducible.'
-date: 2009-10-01
+computationally reproducible.'
+date: 2022-02-15
 venue: 'arXiv'
 paperurl: 'https://arxiv.org/abs/2108.12383'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+citation: 'Shenouda, Joseph, and Waheed U. Bajwa. "A guide to computational reproducibility in signal processing and machine learning." arXiv preprint arXiv:2108.12383 (2021).'
 ---
 
 
