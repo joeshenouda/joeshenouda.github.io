@@ -18,11 +18,14 @@ regularization, such as weight decay. Before coming to Madison I graduated from
 Electrical and Computer Engineering advised by [Prof. Waheed U.
 Bajwa](http://www.inspirelab.us/people/).
 
----
 
 ## Publications
-- Yang, Liu, et al. "A Better Way to Decay: Proximal Gradient Training
-  Algorithms for Neural Nets." NeurIPS OPT Workshop 2022 [Arxiv](https://arxiv.org/abs/2210.03069)
-- Shenouda, Joseph, and Waheed U. Bajwa. "A guide to computational reproducibility in signal processing and machine learning." IEE Signal Processing Magazine 2023 [Arxiv](https://arxiv.org/abs/2108.12383).
-- 
+- **"A Better Way to Decay: Proximal Gradient Training
+  Algorithms for Neural Nets."** 
+  Liu Yang, Jifan Zhang, Joseph Shenouda, Dimitris Papailiopoulos, Kangwook Lee, Rob Nowak
+  *NeurIPS OPT Workshop 2022* [Arxiv](https://arxiv.org/abs/2210.03069)
+-  **"A guide to computational reproducibility in signal processing and machine learning."** 
+Joseph Shenouda and Waheed U. Bajwa.
+*IEEE Signal Processing Magazine 2023* [Arxiv](https://arxiv.org/abs/2108.12383).
+ 
 
