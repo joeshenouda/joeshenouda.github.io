@@ -85,7 +85,7 @@ author:
   bio              : "PhD student at the UW-Madison"
   location         : "Madison, WI"
   employer         :
-  googlescholar    : "http://yourfullgooglescholarurl.com"
+  googlescholar    : "https://scholar.google.com/citations?user=GslaaDUAAAAJ&hl=en"
   email            : "jshenouda@wisc.edu"
   uri              :
   foursquare       :
@@ -158,9 +158,9 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
-#  portfolio:
-#    output: true
-#    permalink: /:collection/:path/
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
 #  talks:
 #    output: true
 #    permalink: /:collection/:path/
