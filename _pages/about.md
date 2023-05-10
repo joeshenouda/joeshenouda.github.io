@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am currently an Electrical and Computer Engineering graduate student at the [Univeristy of Wisconsin-Madison](https://www.wisc.edu/) advised by [Prof. Kangwook Lee](https://kangwooklee.com/) and [Prof. Robert Nowak](https://nowak.ece.wisc.edu/).
+I am currently an Electrical and Computer Engineering graduate student at the [University of Wisconsin-Madison](https://www.wisc.edu/) advised by [Prof. Kangwook Lee](https://kangwooklee.com/) and [Prof. Robert Nowak](https://nowak.ece.wisc.edu/).
 
 My research interests are in both the theoretical and practical aspects of
 signal processing and machine learning methods. Most recently I've been
