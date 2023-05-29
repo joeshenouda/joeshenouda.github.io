@@ -17,26 +17,18 @@ regularization, such as weight decay.
 
 ## Preprints
 - **"Vector-Valued Variation Spaces and Width Bounds for DNNs: Insights on Weight Decay Regularization"**
-
 Joseph Shenouda, Rahul Parhi, Kangwook Lee, Robert D. Nowak.
-
 (In Review) [Arxiv] (https://arxiv.org/abs/2305.16534)
 ## Publications
 - **"A Continuous Transform for Localized Ridgelets"**
-
 Joseph Shenouda, Rahul Parhi, Robert D. Nowak
-
 *Sampling Theory and Applications Conference (SampTA) 2023*
 -  **"A guide to computational reproducibility in signal processing and machine learning"** 
-
 Joseph Shenouda and Waheed U. Bajwa.
-
 *IEEE Signal Processing Magazine 2023* [Arxiv](https://arxiv.org/abs/2108.12383).
 - **"A Better Way to Decay: Proximal Gradient Training
   Algorithms for Neural Nets"** 
-
   Liu Yang, Jifan Zhang, Joseph Shenouda, Dimitris Papailiopoulos, Kangwook Lee, Robert D. Nowak.
-  
   *Neural Information Processing Systems (NeurIPS) OPT-ML Workshop 2022* [Arxiv](https://arxiv.org/abs/2210.03069)
 
  
