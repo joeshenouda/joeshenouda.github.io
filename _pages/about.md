@@ -8,7 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-I am currently a Ph.D. candidate in the department of Electrical and Computer Engineering at the [University of Wisconsin-Madison](https://www.wisc.edu/) advised by [Prof. Kangwook Lee](https://kangwooklee.com/) and [Prof. Robert D. Nowak](https://nowak.ece.wisc.edu/). I received my M.S. at the same institution and my B.S. from [Rutgers University](https://www.rutgers.edu/) advised by [Prof. Waheed U. Bajwa](http://www.inspirelab.us/people/) both in Electrical and Computer Engineering. For more about my experiences check out my [CV](/files/Shenouda_Joseph_CV.pdf)
+I am currently a Ph.D. candidate in the department of Electrical and Computer Engineering at the [University of Wisconsin-Madison](https://www.wisc.edu/) advised by [Prof. Kangwook Lee](https://kangwooklee.com/) and [Prof. Robert D. Nowak](https://nowak.ece.wisc.edu/). I received my M.S. at the same institution and my B.S. from [Rutgers University](https://www.rutgers.edu/) advised by [Prof. Waheed U. Bajwa](http://www.inspirelab.us/people/) both in Electrical and Computer Engineering. 
+
+For more about my experiences check out my [CV](/files/Shenouda_Joseph_CV.pdf).
 
 My research interests are in both the theoretical and practical aspects of
 signal processing and machine learning methods. Most recently I've been
