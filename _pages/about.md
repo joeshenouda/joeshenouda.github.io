@@ -43,7 +43,7 @@ In Review
 <br>
 *International Conference on Machine Learning (ICML) Duality Principles for Modern ML Workshop* (**contributed talk**)
 <br>
-[[slides]](https://dp4ml.github.io/assets/pdf/slides/josephshenouda.pdf)
+[[video]](https://slideslive.com/39006552/a-representer-theorem-for-vectorvalued-neural-networks-insights-on-weight-decay-regularization-and-widths-of-dnns?ref=speaker-22889)
 
 <ins>"A Continuous Transform for Localized Ridgelets"</ins>
 <br>
@@ -67,7 +67,7 @@ Liu Yang, Jifan Zhang, **Joseph Shenouda**, Dimitris Papailiopoulos, Kangwook Le
 <br>
 *Neural Information Processing Systems (NeurIPS) OPT-ML Workshop 2022*
 <br>
-[[paper]](https://arxiv.org/abs/2210.03069)
+[[paper]](https://openreview.net/forum?id=4y1xh8jClhC)
 
  
 
