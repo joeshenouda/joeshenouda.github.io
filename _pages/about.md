@@ -18,16 +18,21 @@ interested in understanding deep neural networks and the effect of explicit
 regularization, such as weight decay.
 
 ## Preprints
-<ins>Vector-Valued Variation Spaces and Width Bounds for DNNs: Insights on Weight Decay Regularization (In Review)</ins>
+<ins>Vector-Valued Variation Spaces and Width Bounds for DNNs: Insights on Weight Decay Regularization</ins>
 <br>
 **Joseph Shenouda**, Rahul Parhi, Kangwook Lee, Robert D. Nowak.
+<br>
+In Review
 <br>
 [[arXiv]](https://arxiv.org/abs/2305.16534)
 
 
-<ins>PathProx: A Proximal Gradient Algorithm for Weight Decay Regularized Deep Neural Networks" (In Review)</ins>
+
+<ins>PathProx: A Proximal Gradient Algorithm for Weight Decay Regularized Deep Neural Networks"</ins>
 <br>
 Liu Yang, Jifan Zhang, **Joseph Shenouda**, Dimitris Papailiopoulos, Kangwook Lee, Robert D. Nowak.
+<br>
+In Review
 <br>
 [[arXiv]](https://arxiv.org/abs/2210.03069) [[code]](https://github.com/Leiay/PathProx/tree/main)
 
