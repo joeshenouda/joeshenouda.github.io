@@ -28,7 +28,7 @@ In Review
 
 
 
-<ins>PathProx: A Proximal Gradient Algorithm for Weight Decay Regularized Deep Neural Networks"</ins>
+<ins>PathProx: A Proximal Gradient Algorithm for Weight Decay Regularized Deep Neural Networks</ins>
 <br>
 Liu Yang, Jifan Zhang, **Joseph Shenouda**, Dimitris Papailiopoulos, Kangwook Lee, Robert D. Nowak.
 <br>
@@ -37,7 +37,7 @@ In Review
 [[arXiv]](https://arxiv.org/abs/2210.03069) [[code]](https://github.com/Leiay/PathProx/tree/main)
 
 ## Publications
-<ins>"A Representer Theorem for Vector-Valued Neural Networks: Insights on Weight Decay Training and Widths of Deep Neural Networks"</ins>
+<ins>A Representer Theorem for Vector-Valued Neural Networks: Insights on Weight Decay Training and Widths of Deep Neural Networks</ins>
 <br>
 **Joseph Shenouda**, Rahul Parhi, Kangwook Lee, Robert D. Nowak. 
 <br>
@@ -45,7 +45,7 @@ In Review
 <br>
 [[video]](https://slideslive.com/39006552/a-representer-theorem-for-vectorvalued-neural-networks-insights-on-weight-decay-regularization-and-widths-of-dnns?ref=speaker-22889)
 
-<ins>"A Continuous Transform for Localized Ridgelets"</ins>
+<ins>A Continuous Transform for Localized Ridgelets</ins>
 <br>
 **Joseph Shenouda**, Rahul Parhi, Robert D. Nowak.
 <br>
@@ -53,7 +53,7 @@ In Review
 <br>
 [[paper]](https://openreview.net/pdf?id=bxvnMaTbarp)
 
-<ins>"A guide to computational reproducibility in signal processing and machine learning"</ins>
+<ins>A guide to computational reproducibility in signal processing and machine learning</ins>
 <br>
 **Joseph Shenouda** and Waheed U. Bajwa.
 <br>
@@ -61,7 +61,7 @@ In Review
 <br>
 [[paper]](https://arxiv.org/abs/2108.12383).
 
-<ins>"A Better Way to Decay: Proximal Gradient Training Algorithms for Neural Nets"</ins>
+<ins>A Better Way to Decay: Proximal Gradient Training Algorithms for Neural Nets</ins>
 <br>
 Liu Yang, Jifan Zhang, **Joseph Shenouda**, Dimitris Papailiopoulos, Kangwook Lee, Robert D. Nowak.
 <br>
