@@ -53,7 +53,7 @@ In Review
 <br>
 [[paper]](https://openreview.net/pdf?id=bxvnMaTbarp)
 
-<ins>A guide to computational reproducibility in signal processing and machine learning</ins>
+<ins>A Guide to Computational Reproducibility in Signal Processing and Machine Learning</ins>
 <br>
 **Joseph Shenouda** and Waheed U. Bajwa.
 <br>
