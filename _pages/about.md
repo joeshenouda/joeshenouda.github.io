@@ -18,7 +18,7 @@ interested in understanding deep neural networks and the effect of explicit
 regularization, such as weight decay.
 
 ## Preprints
-<ins>Vector-Valued Variation Spaces and Width Bounds for DNNs: Insights on Weight Decay Regularization</ins>
+<ins>Variation Spaces for Multi-Output Neural Networks: Insights on Multi-Task Learning and Network Compression</ins>
 <br>
 **Joseph Shenouda**, Rahul Parhi, Kangwook Lee, Robert D. Nowak.
 <br>
