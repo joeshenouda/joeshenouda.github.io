@@ -21,7 +21,7 @@ interested in understanding multi-task neural networks and implicit neural repre
 <br>
 **Joseph Shenouda**, Rahul Parhi, Kangwook Lee, Robert D. Nowak.
 <br>
-JMLR 2024 (To Appear)
+*Journal of Machine Learning Research (JMLR) 2024 (To Appear)*
 <br>
 [[arXiv]](https://arxiv.org/abs/2305.16534)
 
@@ -29,7 +29,7 @@ JMLR 2024 (To Appear)
 <br>
 **Joseph Shenouda**, Yamin Zhou, Robert D. Nowak.
 <br>
-ICML 2024
+*International Conference on Machine Learning (ICML) 2024*
 <br>
 [[arXiv]](https://arxiv.org/abs/2406.02529) [[code]](https://github.com/joeshenouda/relu-inrs)
 
