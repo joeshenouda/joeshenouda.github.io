@@ -14,7 +14,7 @@ For more about my experiences check out my [CV](/files/Shenouda_Joseph_CV.pdf).
 
 My research interests are in both the theoretical and practical aspects of
 signal processing and machine learning methods. Most recently I've been
-interested in understanding multi-task neural networks and implicit neural representations.
+interested in understanding the properties of multi-output neural networks with applications to deep neural network compression and implicit neural representations.
 
 ## Publications
 <ins>Variation Spaces for Multi-Output Neural Networks: Insights on Multi-Task Learning and Network Compression</ins>
