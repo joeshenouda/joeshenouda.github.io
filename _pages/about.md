@@ -21,7 +21,7 @@ interested in understanding the properties of multi-output neural networks and i
 <br>
 **Joseph Shenouda**, Rahul Parhi, Kangwook Lee, Robert D. Nowak.
 <br>
-*Journal of Machine Learning Research (JMLR) 2024 (To Appear)*
+*Journal of Machine Learning Research (JMLR) 2024*
 <br>
 [[arXiv]](https://arxiv.org/abs/2305.16534)
 
