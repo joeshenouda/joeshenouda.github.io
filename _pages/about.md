@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "About Me"
-excerpt: "About me"
+excerpt: "About Me"
 author_profile: true
 redirect_from: 
   - /about/
@@ -13,17 +13,24 @@ I am currently a Ph.D. candidate in the department of Electrical and Computer En
 For more about my experiences check out my [CV](/files/Shenouda_Joseph_CV.pdf).
 
 My research interests are in both the theoretical and practical aspects of
-signal processing and machine learning methods. Most recently I've been
-interested in understanding the properties of multi-output neural networks and implicit neural representations.
+signal processing and machine learning methods. In particular, I focus on bridging the gap between theory and practice in deep learning by developing novel theories for modern paradigms such as multi-task learning and using such theoretical insights to guide the design of practical deep learning systems.
 
 ## Publications
+<ins>A New Neural Kernel Regime: The Inductive Bias of Multi-Task Learning</ins>
+<br>
+Julia Nakhleh, **Joseph Shenouda**, Robert D. Nowak.
+<br>
+*Advances in Neural Information Processing Systems (NeurIPS) 2024*
+<br>
+[[paper]](https://openreview.net/forum?id=APBq3KAmFa&noteId=nQlxif7dhp) [[arXiv]](https://arxiv.org/abs/2410.21696)
+
 <ins>Variation Spaces for Multi-Output Neural Networks: Insights on Multi-Task Learning and Network Compression</ins>
 <br>
 **Joseph Shenouda**, Rahul Parhi, Kangwook Lee, Robert D. Nowak.
 <br>
 *Journal of Machine Learning Research (JMLR) 2024*
 <br>
-[[arXiv]](https://arxiv.org/abs/2305.16534)
+[[paper]](https://jmlr.org/papers/v25/23-0677.html) [[arXiv]](https://arxiv.org/abs/2305.16534)
 
 <ins>ReLUs Are Sufficient for Learning Implicit Neural Representations</ins>
 <br>
