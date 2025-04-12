@@ -15,7 +15,7 @@ For more about my experiences check out my [CV](/files/Shenouda_Joseph_CV.pdf).
 My research interests are in both the theoretical and practical aspects of
 signal processing and machine learning methods. In particular, I focus on bridging the gap between theory and practice in deep learning by developing novel theories for modern paradigms such as multi-task learning and using such theoretical insights to guide the design of practical deep learning systems.
 
-**Email** jshenouda **[at]** wisc.edu
+**Email:** jshenouda **[at]** wisc.edu
 
 ## Publications
 <ins>A New Neural Kernel Regime: The Inductive Bias of Multi-Task Learning</ins>
