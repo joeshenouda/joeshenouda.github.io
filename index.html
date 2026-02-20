@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Joseph Shenouda</title>
+    <meta name="description" content="Joseph Shenouda — Ph.D. candidate in Electrical and Computer Engineering at UW–Madison. Research in signal processing and machine learning." />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="wrap header-grid">
+        <div class="hero-text">
+          <h1 class="name">Joseph Shenouda</h1>
+          <p class="title">Ph.D. candidate in Electrical and Computer Engineering</p>
+          <p class="subtitle">University of Wisconsin–Madison</p>
+        </div>
+        <div class="hero-photo">
+          <img src="images/high-res-headshot.png" alt="Joseph Shenouda headshot" />
+        </div>
+        <div class="contact">
+          <p><strong>Email</strong> jshenouda [at] wisc.edu</p>
+          <p><a href="files/Shenouda_Joseph_CV.pdf">CV (PDF)</a></p>
+        </div>
+      </div>
+    </header>
+
+    <nav class="jump-nav">
+      <div class="wrap">
+        <a href="#about">About</a>
+        <a href="#publications">Publications</a>
+        <a href="#industry">Industry</a>
+        <a href="#teaching">Teaching</a>
+        <a href="#workshops">Workshop Papers</a>
+        <a href="#preprints">Preprints</a>
+      </div>
+    </nav>
+
+    <main class="wrap">
+      <section id="about">
+        <h2>About</h2>
+        <p>
+          I am currently a Ph.D. candidate in the Department of Electrical and Computer Engineering
+          at the <a href="https://www.wisc.edu/">University of Wisconsin–Madison</a>, advised by
+          <a href="https://kangwooklee.com/">Prof. Kangwook Lee</a> and
+          <a href="https://nowak.ece.wisc.edu/">Prof. Robert D. Nowak</a>. Before coming to Madison,
+          I received my B.S. in Electrical and Computer Engineering from
+          <a href="https://www.rutgers.edu/">Rutgers University</a>, where I was advised by
+          <a href="http://www.inspirelab.us/people/">Prof. Waheed U. Bajwa</a>.
+        </p>
+        <p>
+          For more about my experiences, please check out my
+          <a href="files/Shenouda_Joseph_CV.pdf">CV</a>.
+        </p>
+        <p>
+          My research interests span the theoretical and practical aspects of signal processing and
+          machine learning. I focus on bridging theory and practice in deep learning by developing
+          theory for modern paradigms such as multi-task learning and implicit neural
+          representations, and using these insights to guide the design of practical systems. More
+          recently, I have become interested in the foundations of large language model pretraining,
+          including optimization dynamics, memorization, and generalization in large-scale models.
+        </p>
+      </section>
+
+      <section id="publications">
+        <h2>Publications</h2>
+
+        <article class="item">
+          <h3>A New Neural Kernel Regime: The Inductive Bias of Multi-Task Learning</h3>
+          <p class="meta">Julia Nakhleh, <strong>Joseph Shenouda</strong>, Robert D. Nowak.</p>
+          <p class="meta"><em>Advances in Neural Information Processing Systems (NeurIPS) 2024</em></p>
+          <p class="links">
+            <a href="https://openreview.net/forum?id=APBq3KAmFa&noteId=nQlxif7dhp">paper</a>
+            <a href="https://arxiv.org/abs/2410.21696">arXiv</a>
+          </p>
+        </article>
+
+        <article class="item">
+          <h3>Variation Spaces for Multi-Output Neural Networks: Insights on Multi-Task Learning and Network Compression</h3>
+          <p class="meta"><strong>Joseph Shenouda</strong>, Rahul Parhi, Kangwook Lee, Robert D. Nowak.</p>
+          <p class="meta"><em>Journal of Machine Learning Research (JMLR) 2024</em></p>
+          <p class="links">
+            <a href="https://jmlr.org/papers/v25/23-0677.html">paper</a>
+            <a href="https://arxiv.org/abs/2305.16534">arXiv</a>
+          </p>
+        </article>
+
+        <article class="item">
+          <h3>ReLUs Are Sufficient for Learning Implicit Neural Representations</h3>
+          <p class="meta"><strong>Joseph Shenouda</strong>, Yamin Zhou, Robert D. Nowak.</p>
+          <p class="meta"><em>International Conference on Machine Learning (ICML) 2024</em></p>
+          <p class="links">
+            <a href="https://arxiv.org/abs/2406.02529">arXiv</a>
+            <a href="https://github.com/joeshenouda/relu-inrs">code</a>
+          </p>
+        </article>
+
+        <article class="item">
+          <h3>A Continuous Transform for Localized Ridgelets</h3>
+          <p class="meta"><strong>Joseph Shenouda</strong>, Rahul Parhi, Robert D. Nowak.</p>
+          <p class="meta"><em>Sampling Theory and Applications Conference (SampTA) 2023 (contributed talk)</em></p>
+          <p class="links">
+            <a href="https://openreview.net/pdf?id=bxvnMaTbarp">paper</a>
+          </p>
+        </article>
+
+        <article class="item">
+          <h3>A Guide to Computational Reproducibility in Signal Processing and Machine Learning</h3>
+          <p class="meta"><strong>Joseph Shenouda</strong> and Waheed U. Bajwa.</p>
+          <p class="meta"><em>IEEE Signal Processing Magazine 2023</em></p>
+          <p class="links">
+            <a href="https://arxiv.org/abs/2108.12383">paper</a>
+          </p>
+        </article>
+      </section>
+
+      <section id="industry">
+        <h2>Industry Experience</h2>
+
+        <article class="item">
+          <h3>Amazon AGI Foundations — Applied Scientist Intern</h3>
+          <p class="meta">Fall 2025 · Host: Abhishek Kumar</p>
+          <ul class="bullets">
+            <li>Trained and analyzed 0.5B–1B parameter LLMs under Warmup–Stable–Decay (WSD) and Cosine LR schedules in controlled pretraining settings.</li>
+            <li>Designed synthetic factual injection datasets to isolate memorization, forgetting, and consolidation across pretraining phases.</li>
+            <li>Demonstrated that factual consolidation under WSD is confined to cooldown, while Cosine is injection-time invariant at matched loss.</li>
+            <li>Developed scheduler-aware diagnostics based on relative weight update magnitude to predict knowledge acquisition capacity.</li>
+            <li>Built custom datasets, training hooks, and evaluation metrics for token-level factual retention.</li>
+          </ul>
+        </article>
+
+        <article class="item">
+          <h3>NEC Research Labs — Machine Learning Research Intern</h3>
+          <p class="meta">Summer 2025</p>
+          <ul class="bullets">
+            <li>Researched mathematical foundations for in-context learning in Large Language Models (LLMs).</li>
+            <li>Developed theoretical constructions for how LLMs can learn in-context models and conducted computational experiments to verify the theory.</li>
+          </ul>
+        </article>
+
+        <article class="item">
+          <h3>MIT Lincoln Laboratory — Summer Research Intern</h3>
+          <p class="meta">Summer 2021</p>
+        </article>
+      </section>
+
+      <section id="teaching">
+        <h2>Teaching</h2>
+
+        <article class="item">
+          <h3>University of Wisconsin–Madison</h3>
+          <ul class="bullets">
+            <li>(Teaching Assistant) ECE/CS 761: Mathematical Methods in Machine Learning — Spring 2024. Delivered 3 lectures throughout the semester and organized weekly problem solving sessions.</li>
+            <li>(Teaching Assistant) ECE 203: Signals, Information and Computation — Fall 2024. Prepared weekly lab assignments and assisted students through weekly office hours. <strong>Awarded the ECE 2025 TA Excellence Award for outstanding performance.</strong></li>
+            <li>(Teaching Assistant) ECE 888: Nonparametric Methods in Data Science — Spring 2025.</li>
+            <li>(Teaching Assistant) ECE 532: Matrix Methods in Machine Learning — Spring 2026.</li>
+          </ul>
+        </article>
+      </section>
+
+      <section id="workshops">
+        <h2>Workshop Papers</h2>
+
+        <article class="item">
+          <h3>A Representer Theorem for Vector-Valued Neural Networks: Insights on Weight Decay Training and Widths of Deep Neural Networks</h3>
+          <p class="meta"><strong>Joseph Shenouda</strong>, Rahul Parhi, Kangwook Lee, Robert D. Nowak.</p>
+          <p class="meta"><em>International Conference on Machine Learning (ICML) Duality Principles for Modern ML Workshop (contributed talk)</em></p>
+          <p class="links">
+            <a href="https://slideslive.com/39006552/a-representer-theorem-for-vectorvalued-neural-networks-insights-on-weight-decay-regularization-and-widths-of-dnns?ref=speaker-22889">video</a>
+          </p>
+        </article>
+
+        <article class="item">
+          <h3>A Better Way to Decay: Proximal Gradient Training Algorithms for Neural Nets</h3>
+          <p class="meta">Liu Yang, Jifan Zhang, <strong>Joseph Shenouda</strong>, Dimitris Papailiopoulos, Kangwook Lee, Robert D. Nowak.</p>
+          <p class="meta"><em>Neural Information Processing Systems (NeurIPS) OPT-ML Workshop 2022</em></p>
+          <p class="links">
+            <a href="https://openreview.net/forum?id=4y1xh8jClhC">paper</a>
+          </p>
+        </article>
+      </section>
+
+      <section id="preprints">
+        <h2>Preprints</h2>
+
+        <article class="item">
+          <h3>PathProx: A Proximal Gradient Algorithm for Weight Decay Regularized Deep Neural Networks</h3>
+          <p class="meta">Liu Yang, Jifan Zhang, <strong>Joseph Shenouda</strong>, Dimitris Papailiopoulos, Kangwook Lee, Robert D. Nowak.</p>
+          <p class="meta"><em>In Review</em></p>
+          <p class="links">
+            <a href="https://arxiv.org/abs/2210.03069">arXiv</a>
+            <a href="https://github.com/Leiay/PathProx/tree/main">code</a>
+          </p>
+        </article>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="wrap">
+        <p>Last updated: 2024. Content preserved from the original site.</p>
+      </div>
+    </footer>
+  </body>
+</html>
