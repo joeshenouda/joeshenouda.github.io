@@ -185,25 +185,25 @@ h2 {
 
 .inline-video {
   width: 100%;
-  max-width: 720px;
+  max-width: none;
   border-radius: 12px;
   border: 1px solid var(--border);
   margin-top: 10px;
   display: block;
   background: #000;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .inline-image {
   width: 100%;
-  max-width: 720px;
+  max-width: none;
   border-radius: 12px;
   border: 1px solid var(--border);
   margin-top: 10px;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .video-card {
