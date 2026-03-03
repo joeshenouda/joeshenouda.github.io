@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,600;6..72,700&family=Space+Grotesk:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Nunito+Sans:wght@400;600;700&display=swap');
 
 :root {
   --bg: #f6f3ee;
@@ -7,6 +7,8 @@
   --accent: #0f4a3c;
   --card: #ffffff;
   --border: #e7dfd6;
+  --font-serif: "Lora", serif;
+  --font-sans: "Nunito Sans", sans-serif;
 }
 
 * {
@@ -15,7 +17,7 @@
 
 body {
   margin: 0;
-  font-family: "Newsreader", serif;
+  font-family: var(--font-serif);
   color: var(--ink);
   background: radial-gradient(circle at 10% 10%, #fffaf3, var(--bg) 55%);
   line-height: 1.6;
@@ -52,11 +54,13 @@ a:hover {
 }
 
 .jump-nav .wrap {
-  display: flex;
-  gap: 16px;
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 10px;
   padding: 12px 24px;
-  font-family: "Space Grotesk", sans-serif;
+  font-family: var(--font-sans);
   font-size: 14px;
+  text-align: center;
 }
 
 .jump-nav a {
@@ -75,7 +79,7 @@ a:hover {
 }
 
 .eyebrow {
-  font-family: "Space Grotesk", sans-serif;
+  font-family: var(--font-sans);
   text-transform: uppercase;
   letter-spacing: 0.18em;
   font-size: 12px;
@@ -90,30 +94,76 @@ a:hover {
 }
 
 .title {
-  font-family: "Space Grotesk", sans-serif;
+  font-family: var(--font-sans);
   margin: 0 0 6px;
   font-size: 18px;
   color: var(--ink);
 }
 
 .subtitle {
-  font-family: "Space Grotesk", sans-serif;
+  font-family: var(--font-sans);
   margin: 0;
   color: var(--muted);
 }
 
-.hero-photo img {
+.hero-photo {
+  position: relative;
   width: 100%;
   max-width: 220px;
+  margin-left: auto;
   border-radius: 18px;
   border: 1px solid var(--border);
   box-shadow: 0 14px 30px rgba(31, 35, 40, 0.12);
+  overflow: hidden;
+  isolation: isolate;
+}
+
+.hero-photo__img {
+  width: 100%;
   display: block;
-  margin-left: auto;
+}
+
+.hero-photo__img--real {
+  opacity: 0;
+  transform: scale(1.015);
+  animation: framework-to-real 3.2s ease-out forwards;
+}
+
+.hero-photo__img--framework {
+  position: absolute;
+  inset: 0;
+  opacity: 1;
+  transform: scale(1);
+  animation: framework-layer-out 3.2s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+@keyframes framework-to-real {
+  0% {
+    opacity: 0;
+    transform: scale(1.015);
+  }
+  52% {
+    opacity: 0.22;
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes framework-layer-out {
+  0% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1.01);
+  }
 }
 
 .contact {
-  font-family: "Space Grotesk", sans-serif;
+  font-family: var(--font-sans);
   background: var(--card);
   border: 1px solid var(--border);
   padding: 18px 20px;
@@ -142,11 +192,11 @@ section {
 }
 
 h2 {
-  font-family: "Space Grotesk", sans-serif;
+  font-family: var(--font-sans);
   font-size: 20px;
   margin: 0 0 16px;
-  text-transform: uppercase;
-  letter-spacing: 0.12em;
+  text-transform: none;
+  letter-spacing: 0.02em;
   color: var(--accent);
 }
 
@@ -179,7 +229,7 @@ h2 {
 
 .links a {
   margin-right: 12px;
-  font-family: "Space Grotesk", sans-serif;
+  font-family: var(--font-sans);
   font-size: 14px;
 }
 
@@ -253,7 +303,7 @@ h2 {
 }
 
 .video-title {
-  font-family: "Space Grotesk", sans-serif;
+  font-family: var(--font-sans);
   font-size: 15px;
   color: var(--ink);
 }
@@ -277,7 +327,7 @@ h2 {
   border-top: 1px solid var(--border);
   padding: 20px 0 40px;
   color: var(--muted);
-  font-family: "Space Grotesk", sans-serif;
+  font-family: var(--font-sans);
   font-size: 14px;
 }
 
@@ -303,8 +353,11 @@ h2 {
   }
 
   .jump-nav .wrap {
+    grid-template-columns: 1fr;
+    display: flex;
     flex-wrap: wrap;
     gap: 10px 16px;
+    text-align: left;
   }
 
   .jump-nav a {
@@ -326,5 +379,21 @@ h2 {
 
   .video-thumb {
     width: 100%;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-photo__img--real,
+  .hero-photo__img--framework {
+    animation: none !important;
+  }
+
+  .hero-photo__img--real {
+    opacity: 1;
+    transform: none;
+  }
+
+  .hero-photo__img--framework {
+    opacity: 0;
   }
 }
