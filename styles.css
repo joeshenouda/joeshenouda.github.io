@@ -171,6 +171,12 @@ a:hover {
   align-self: start;
 }
 
+.icon-link {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
 .icon-link a {
   display: inline-flex;
   align-items: center;
