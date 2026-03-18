@@ -250,45 +250,6 @@ html.js body.is-ready .page-loader {
   display: block;
 }
 
-.hero-photo__img--real {
-  opacity: 0;
-  transform: scale(1.015);
-  animation: framework-to-real 3.2s ease-out forwards;
-}
-
-.hero-photo__img--framework {
-  position: absolute;
-  inset: 0;
-  opacity: 1;
-  transform: scale(1);
-  animation: framework-layer-out 3.2s cubic-bezier(0.22, 1, 0.36, 1) forwards;
-}
-
-@keyframes framework-to-real {
-  0% {
-    opacity: 0;
-    transform: scale(1.015);
-  }
-  52% {
-    opacity: 0.22;
-  }
-  100% {
-    opacity: 1;
-    transform: scale(1);
-  }
-}
-
-@keyframes framework-layer-out {
-  0% {
-    opacity: 1;
-    transform: scale(1);
-  }
-  100% {
-    opacity: 0;
-    transform: scale(1.01);
-  }
-}
-
 .contact {
   font-family: var(--font-sans);
   background: var(--card);
@@ -546,23 +507,12 @@ h2 {
   .page-shell,
   .page-loader,
   .page-loader__bar-fill,
-  .hero-photo__img--real,
-  .hero-photo__img--framework,
   .hero-photo,
   .contact,
   .item,
   .video-card {
     animation: none !important;
     transition: none !important;
-  }
-
-  .hero-photo__img--real {
-    opacity: 1;
-    transform: none;
-  }
-
-  .hero-photo__img--framework {
-    opacity: 0;
   }
 
   body.is-loading {
