@@ -58,11 +58,10 @@
       <nav class="jump-nav">
         <div class="wrap">
           <a href="#about">About</a>
-          <a href="#publications">Publications</a>
+          <a href="#publications">Papers</a>
           <a href="#industry">Industry</a>
           <a href="#teaching">Teaching</a>
-          <a href="#workshops">Workshop Papers</a>
-          <a href="#preprints">Preprints</a>
+          <a href="#workshops">Talks</a>
         </div>
       </nav>
 
@@ -92,7 +91,20 @@
         </section>
 
         <section id="publications">
-          <h2>Publications</h2>
+          <h2>Papers</h2>
+
+        <article class="item">
+          <h3>Learning Facts in LLM Pretraining: The Role of Learning Rate Schedules and Weight Decay</h3>
+          <p class="meta"><strong>Joseph Shenouda</strong>, Richy Meas, Subendhu Rongali, Valentyn Boreiko, Saleh Soltan, Volkan Cevher, Anna Rumshisky, Wael Hamza, Robert D. Nowak, Abhishek Kumar.</p>
+          <p class="meta"><em>Preprint</em></p>
+          <p class="summary"><em>
+            We study how learning-rate schedules and weight decay shape the acquisition and retention of rare facts during LLM pretraining. In controlled experiments, Warmup–Stable–Decay (WSD) favors factual consolidation during its late decay phase, while Cosine annealing benefits from persistent fact exposure throughout training. Relative parameter update magnitudes help explain these retention patterns, suggesting that factual data placement should be designed jointly with the optimization schedule and weight decay.
+          </em></p>
+          <p class="links">
+            <a href="files/learning-facts-llm-pretraining.pdf">paper</a>
+          </p>
+          <img class="inline-image" src="images/llm-pretraining-facts-figure1.png" alt="Figure 1: WSD and Cosine learning-rate schedules, their relative parameter update dynamics, and final factual recall as a function of fact injection timing." width="1584" height="464" loading="lazy" />
+        </article>
 
         <article class="item">
           <h3>A New Neural Kernel Regime: The Inductive Bias of Multi-Task Learning</h3>
@@ -133,6 +145,7 @@
             We show that standard ReLU activations yield an ill-conditioned loss landscape for INR problems. We then propose a B-spline wavelet–inspired modification to ReLU and demonstrate its effectiveness on standard INR tasks. Finally, we connect these findings to my prior work on measuring function regularity for efficient hyperparameter selection.
           </em></p>
           <p class="links">
+            <a href="https://openreview.net/pdf?id=srejp9uOx7">paper</a>
             <a href="https://arxiv.org/abs/2406.02529">arXiv</a>
             <a href="https://github.com/joeshenouda/relu-inrs">code</a>
           </p>
@@ -159,6 +172,15 @@
             <a href="https://arxiv.org/abs/2108.12383">paper</a>
           </p>
         </article>
+
+        <article class="item">
+          <h3>A Better Way to Decay: Proximal Gradient Training Algorithms for Neural Nets</h3>
+          <p class="meta">Liu Yang, Jifan Zhang, <strong>Joseph Shenouda</strong>, Dimitris Papailiopoulos, Kangwook Lee, Robert D. Nowak.</p>
+          <p class="meta"><em>Neural Information Processing Systems (NeurIPS) OPT-ML Workshop 2022</em></p>
+          <p class="links">
+            <a href="https://openreview.net/forum?id=4y1xh8jClhC">paper</a>
+          </p>
+        </article>
       </section>
 
       <section id="industry">
@@ -167,21 +189,25 @@
         <article class="item">
           <h3>Amazon AGI Foundations — Applied Scientist Intern</h3>
           <p class="meta">Fall 2025 · Host: Abhishek Kumar</p>
+          <p class="meta">LLM Pretraining | AGI Foundations</p>
           <ul class="bullets">
-            <li>Trained and analyzed 0.5B–1B parameter LLMs under Warmup–Stable–Decay (WSD) and Cosine LR schedules in controlled pretraining settings.</li>
-            <li>Designed synthetic factual injection datasets to isolate memorization, forgetting, and consolidation across pretraining phases.</li>
-            <li>Demonstrated that factual consolidation under WSD is confined to cooldown, while Cosine is injection-time invariant at matched loss.</li>
-            <li>Developed scheduler-aware diagnostics based on relative weight update magnitude to predict knowledge acquisition capacity.</li>
-            <li>Built custom datasets, training hooks, and evaluation metrics for token-level factual retention.</li>
+            <li>Conducted large-scale LLM pretraining experiments on distributed, multi-GPU compute infrastructure, comparing Warmup–Stable–Decay (WSD) and Cosine learning rate schedules.</li>
+            <li>Built custom synthetic datasets, training instrumentation, and evaluation pipelines to measure token-level factual memorization and forgetting.</li>
+            <li>Designed controlled experiments to isolate the effects of learning-rate schedules, weight decay, and fact injection timing on knowledge acquisition and retention.</li>
+            <li>Demonstrated that factual consolidation under WSD is concentrated in the decay phase, while Cosine schedules exhibit more consistent retention across injection times under matched training loss conditions.</li>
+            <li>Developed scheduler-aware diagnostics based on relative parameter update magnitudes to characterize and predict factual consolidation across pretraining phases.</li>
           </ul>
+          <p>Received an inclined for rehire recommendation.</p>
         </article>
 
         <article class="item">
           <h3>NEC Research Labs — Machine Learning Research Intern</h3>
           <p class="meta">Summer 2025</p>
+          <p class="meta">In-Context Learning Theory | NEC Research Labs</p>
           <ul class="bullets">
-            <li>Researched mathematical foundations for in-context learning in Large Language Models (LLMs).</li>
-            <li>Developed theoretical constructions for how LLMs can learn in-context models and conducted computational experiments to verify the theory.</li>
+            <li>Investigated the mathematical foundations of in-context learning (ICL) in large language models, using modular arithmetic as a controlled setting to study task learning and generalization.</li>
+            <li>Developed theoretical constructions to characterize how neural networks can learn modular arithmetic operations from examples provided in context.</li>
+            <li>Designed and conducted computational experiments to validate theoretical predictions and investigate the mechanisms underlying in-context learning.</li>
           </ul>
         </article>
 
@@ -206,7 +232,7 @@
       </section>
 
       <section id="workshops">
-        <h2>Workshop Papers</h2>
+        <h2>Talks</h2>
 
         <article class="item">
           <h3>A Representer Theorem for Vector-Valued Neural Networks: Insights on Weight Decay Training and Widths of Deep Neural Networks</h3>
@@ -224,34 +250,14 @@
           </a>
         </article>
 
-        <article class="item">
-          <h3>A Better Way to Decay: Proximal Gradient Training Algorithms for Neural Nets</h3>
-          <p class="meta">Liu Yang, Jifan Zhang, <strong>Joseph Shenouda</strong>, Dimitris Papailiopoulos, Kangwook Lee, Robert D. Nowak.</p>
-          <p class="meta"><em>Neural Information Processing Systems (NeurIPS) OPT-ML Workshop 2022</em></p>
-          <p class="links">
-            <a href="https://openreview.net/forum?id=4y1xh8jClhC">paper</a>
-          </p>
-        </article>
+
       </section>
 
-      <section id="preprints">
-        <h2>Preprints</h2>
-
-        <article class="item">
-          <h3>PathProx: A Proximal Gradient Algorithm for Weight Decay Regularized Deep Neural Networks</h3>
-          <p class="meta">Liu Yang, Jifan Zhang, <strong>Joseph Shenouda</strong>, Dimitris Papailiopoulos, Kangwook Lee, Robert D. Nowak.</p>
-          <p class="meta"><em>In Review</em></p>
-          <p class="links">
-            <a href="https://arxiv.org/abs/2210.03069">arXiv</a>
-            <a href="https://github.com/Leiay/PathProx/tree/main">code</a>
-          </p>
-        </article>
-        </section>
       </main>
 
       <footer class="footer">
         <div class="wrap">
-          <p>Last updated: 2024. Content preserved from the original site.</p>
+          <p>Last updated: 2026. Content preserved from the original site.</p>
         </div>
       </footer>
     </div>
